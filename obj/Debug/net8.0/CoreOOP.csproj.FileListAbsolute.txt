@@ -1,0 +1,14 @@
+F:\Backend\c#\basic\CoreOOP\CoreOOP\bin\Debug\net8.0\CoreOOP.exe
+F:\Backend\c#\basic\CoreOOP\CoreOOP\bin\Debug\net8.0\CoreOOP.deps.json
+F:\Backend\c#\basic\CoreOOP\CoreOOP\bin\Debug\net8.0\CoreOOP.runtimeconfig.json
+F:\Backend\c#\basic\CoreOOP\CoreOOP\bin\Debug\net8.0\CoreOOP.dll
+F:\Backend\c#\basic\CoreOOP\CoreOOP\bin\Debug\net8.0\CoreOOP.pdb
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.GeneratedMSBuildEditorConfig.editorconfig
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.AssemblyInfoInputs.cache
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.AssemblyInfo.cs
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.csproj.CoreCompileInputs.cache
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.dll
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\refint\CoreOOP.dll
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.pdb
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.genruntimeconfig.cache
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\ref\CoreOOP.dll
