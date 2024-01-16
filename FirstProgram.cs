@@ -8,5 +8,9 @@ namespace CoreOOP
 {
     internal class FirstProgram
     {
+        public void simplePrint()
+        {
+            Console.WriteLine("Hello world");
+        }
     }
 }

@@ -12,3 +12,4 @@ F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\refint\CoreOOP.dll
 F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.pdb
 F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.genruntimeconfig.cache
 F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\ref\CoreOOP.dll
+F:\Backend\c#\basic\CoreOOP\CoreOOP\obj\Debug\net8.0\CoreOOP.sourcelink.json
