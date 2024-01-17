@@ -50,6 +50,24 @@ namespace CoreOOP
             }
         }
 
+        public void simpleNestedCondition(int num)
+        {
+            if (num >= 0)
+            {
+                if (num > 10)
+                {
+                    Console.WriteLine("Greater than 10");
+                }
+                else
+                {
+                    Console.WriteLine("less than 10");
+                }
+            } else
+            {
+                Console.WriteLine("less than 0");
+            }
+        }
+
 
     }
 }

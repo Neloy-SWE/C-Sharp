@@ -29,11 +29,20 @@ namespace CoreOOP
             //controlFlowIfElse.checkIf(num: 11);
             //controlFlowIfElse.checkIfElseIf(num: 79);
             //controlFlowIfElse.checkIfElse(num: 50);
-            
+            //controlFlowIfElse.simpleNestedCondition(5);
+
             // switch
             //ControlFlowSwitchCase controlFlowSwitchCase = new ControlFlowSwitchCase();
             //controlFlowSwitchCase.checkSwitchCase(num: 50);
             //controlFlowSwitchCase.checkSwitchCase(num: 51.66);
+
+
+            // loops
+            Loops loops = new Loops();
+            loops.checkForLoop(5);
+            loops.checkWhileLoop(5);
+            loops.checkDoWhileLoop(5);
+            loops.simpleNestedLoop();
 
         }
     }
