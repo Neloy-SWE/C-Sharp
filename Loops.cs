@@ -46,5 +46,24 @@ namespace CoreOOP
                 }
             }
         }
+
+        public void checkBreakContinue(int num)
+        {
+            for (int i = 1; i <= num; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    continue;
+                    // skiping steps
+                }
+                if (i > 5)
+                {
+                    Console.WriteLine("Loop break");
+                    break;
+                    // breaking loop
+                }
+                Console.WriteLine(i);
+            }
+        }
     }
 }

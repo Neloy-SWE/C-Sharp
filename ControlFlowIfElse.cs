@@ -62,12 +62,11 @@ namespace CoreOOP
                 {
                     Console.WriteLine("less than 10");
                 }
-            } else
+            }
+            else
             {
                 Console.WriteLine("less than 0");
             }
         }
-
-
     }
 }

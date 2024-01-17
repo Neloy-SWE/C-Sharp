@@ -38,12 +38,26 @@ namespace CoreOOP
 
 
             // loops
-            Loops loops = new Loops();
-            loops.checkForLoop(5);
-            loops.checkWhileLoop(5);
-            loops.checkDoWhileLoop(5);
-            loops.simpleNestedLoop();
+            //Loops loops = new Loops();
+            //loops.checkForLoop(num: 5);
+            //loops.checkWhileLoop(num: 5);
+            //loops.checkDoWhileLoop(num: 5);
+            //loops.simpleNestedLoop();
+            //loops.checkBreakContinue(num: 10);
 
+
+            // function
+            Functions functions = new Functions();
+            Console.WriteLine("retrun value check: {0}",functions.ReturnType(num: 5));
+            int i = 10;
+            Console.WriteLine("Before calling method for value: {0}", i);
+            functions.callByValue(num: i);
+            Console.WriteLine("After calling method for value: {0}", i);
+            functions.callByReference(num: ref i);
+            Console.WriteLine("After calling method for reference: {0}", i);
+            int a;
+            functions.callByOut(num: out a);
+            Console.WriteLine("After assign value from method: {0}", a);
         }
     }
 }
