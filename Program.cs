@@ -47,17 +47,25 @@ namespace CoreOOP
 
 
             // function
-            Functions functions = new Functions();
-            Console.WriteLine("retrun value check: {0}",functions.ReturnType(num: 5));
-            int i = 10;
-            Console.WriteLine("Before calling method for value: {0}", i);
-            functions.callByValue(num: i);
-            Console.WriteLine("After calling method for value: {0}", i);
-            functions.callByReference(num: ref i);
-            Console.WriteLine("After calling method for reference: {0}", i);
-            int a;
-            functions.callByOut(num: out a);
-            Console.WriteLine("After assign value from method: {0}", a);
+            //Functions functions = new Functions();
+            //Console.WriteLine("retrun value check: {0}",functions.ReturnType(num: 5));
+            //int i = 10;
+            //Console.WriteLine("Before calling method for value: {0}", i);
+            //functions.callByValue(num: i);
+            //Console.WriteLine("After calling method for value: {0}", i);
+            //functions.callByReference(num: ref i);
+            //Console.WriteLine("After calling method for reference: {0}", i);
+            //int a;
+            //functions.callByOut(num: out a);
+            //Console.WriteLine("After assign value from method: {0}", a);
+
+
+            // array
+            Arrays arrays = new Arrays();
+            arrays.singleArray();
+            arrays.passArray(arr: [1,2,3]);
+            arrays.mutlidimensionalArray();
+            arrays.jaggedArray();
         }
     }
 }
