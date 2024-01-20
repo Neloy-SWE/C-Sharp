@@ -61,11 +61,28 @@ namespace CoreOOP
 
 
             // array
-            Arrays arrays = new Arrays();
-            arrays.singleArray();
-            arrays.passArray(arr: [1,2,3]);
-            arrays.mutlidimensionalArray();
-            arrays.jaggedArray();
+            //Arrays arrays = new Arrays();
+            //arrays.singleArray();
+            //arrays.passArray(arr: [1,2,3]);
+            //arrays.mutlidimensionalArray();
+            //arrays.jaggedArray();
+
+
+            // params
+            //Params objParams = new Params();
+            //objParams.checkParams(1, "Hello", 5.5, 19.4f);
+
+
+            // class
+            //ClassCheck classCheck = new ClassCheck();
+            //classCheck.initialize(id: 181, name: "Neel");
+            //classCheck.check();
+
+
+            // constructor
+            ConstructorExample constructorExample1 = new ConstructorExample(); // default
+            ConstructorExample constructorExample2 = new ConstructorExample(a: 10); // parameterized
+            constructorExample1.check();
         }
     }
 }
