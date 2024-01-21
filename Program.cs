@@ -93,6 +93,13 @@ namespace CoreOOP
             //GC.WaitForPendingFinalizers();
             //Console.ReadKey();
 
+
+            // static
+            Console.WriteLine("Calling static value of a: {0}", StaticExample.a);
+            StaticExample.checkStaticMethod();
+            StaticExample.a = 20;
+            Console.WriteLine("After change the static value of a: {0}", StaticExample.a);
+
         }
     }
 }
