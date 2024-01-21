@@ -80,9 +80,19 @@ namespace CoreOOP
 
 
             // constructor
-            ConstructorExample constructorExample1 = new ConstructorExample(); // default
-            ConstructorExample constructorExample2 = new ConstructorExample(a: 10); // parameterized
-            constructorExample1.check();
+            //ConstructorExample constructorExample1 = new ConstructorExample(); // default
+            //ConstructorExample constructorExample2 = new ConstructorExample(a: 10); // parameterized
+            //constructorExample1.check();
+
+
+            // destructor
+            //DestructorExample destructorExample = new DestructorExample();
+            //destructorExample.checkObject();
+            //destructorExample = null;
+            //GC.Collect();
+            //GC.WaitForPendingFinalizers();
+            //Console.ReadKey();
+
         }
     }
 }
