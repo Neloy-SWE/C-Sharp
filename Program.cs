@@ -107,6 +107,10 @@ namespace CoreOOP
             // static class
             //StaticClass.check();
 
+
+            // static constructor
+            StaticConstructor sc = new StaticConstructor();
+
         }
     }
 }
