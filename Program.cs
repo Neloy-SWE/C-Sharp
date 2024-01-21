@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoreOOP.AllInheritance;
+using System;
 
 namespace CoreOOP
 {
@@ -113,9 +114,41 @@ namespace CoreOOP
 
 
             // struct
-            StructsExample structsExample = new StructsExample();
-            Console.WriteLine("Checking struct example value a: {0}", structsExample.a);
-            Console.WriteLine("Checking struct example value a: {0}", StructsExample.b);
+            //StructsExample structsExample = new StructsExample();
+            //Console.WriteLine("Checking struct example value a: {0}", structsExample.a);
+            //Console.WriteLine("Checking struct example value a: {0}", StructsExample.b);
+
+
+            // inheritance
+            // single
+            //ChildSingleInheritanceClass csc = new ChildSingleInheritanceClass();
+            //csc.check();
+            //csc.checkChild();
+
+            // multilevel
+            //ChildMultilevel childMultilevel = new ChildMultilevel();
+            //childMultilevel.checkSupreme();
+            //childMultilevel.checkSubParent();
+            //childMultilevel.checkChild();
+
+            // hierarchical
+            //HierarchicalInheritance c1 = new Child1(); // super class er vetor sub class er object newa possible. but sub class er method call possible na. only super class er method use kora possible
+            //Level1HIClass c1 = new Child1(); // // super class er vetor sub class er object newa possible. but sub class er method call possible na. only super class er method use kora possible
+            //Child1 c1 = new Child1();
+            //c1.checkHI();
+            //c1.checkHILevel1();
+            //c1.checkChild1();
+            //Child2 c2 = new Child2();
+            //c2.checkHI();
+            //c2.checkHILevel1();
+            //c2.checkChild2();
+
+            // multiple
+            //MultipleInheritance cmi = new childMultipleInheritance(); // interface er object initialize kora jai na. tobe child class er object er maddhom e method use kora jai.
+            //cmi.common(); // child class er object dhore interface er method ke call kora jai. tobe jodi same method child class eo thake tobe child class er method e call hobe.
+            //childMultipleInheritance cmi = new childMultipleInheritance();
+            //cmi.method1();
+            //cmi.common();
 
         }
     }
