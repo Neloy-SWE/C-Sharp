@@ -9,10 +9,16 @@ namespace CoreOOP
     internal class StaticExample
     {
         static public int a = 10;
+        static public int count = 0;
 
         static public void checkStaticMethod()
         {
             Console.WriteLine("This is a static method. calling useing class");
+        }
+
+        public StaticExample()
+        {
+            count++;
         }
     }
 }

@@ -99,6 +99,10 @@ namespace CoreOOP
             StaticExample.checkStaticMethod();
             StaticExample.a = 20;
             Console.WriteLine("After change the static value of a: {0}", StaticExample.a);
+            StaticExample s1 = new StaticExample();
+            StaticExample s2 = new StaticExample();
+            StaticExample s3 = new StaticExample();
+            Console.WriteLine("Object creation count: {0}", StaticExample.count);
 
         }
     }
