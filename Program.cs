@@ -109,7 +109,13 @@ namespace CoreOOP
 
 
             // static constructor
-            StaticConstructor sc = new StaticConstructor();
+            //StaticConstructor sc = new StaticConstructor();
+
+
+            // struct
+            StructsExample structsExample = new StructsExample();
+            Console.WriteLine("Checking struct example value a: {0}", structsExample.a);
+            Console.WriteLine("Checking struct example value a: {0}", StructsExample.b);
 
         }
     }
