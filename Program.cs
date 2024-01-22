@@ -160,11 +160,20 @@ namespace CoreOOP
 
             // polymorphism
             // overloading: method, constructor
-            MemberOverloading mo1 = new MemberOverloading();
-            MemberOverloading mo2 = new MemberOverloading(s: "with parameter");
-            Console.WriteLine(mo1.add(1, 2));
-            Console.WriteLine(mo1.add(1, 2,3));
-            Console.WriteLine(mo1.add(1.1, 2.2));
+            //MemberOverloading mo1 = new MemberOverloading();
+            //MemberOverloading mo2 = new MemberOverloading(s: "with parameter");
+            //Console.WriteLine(mo1.add(1, 2));
+            //Console.WriteLine(mo1.add(1, 2,3));
+            //Console.WriteLine(mo1.add(1.1, 2.2));
+
+            // overriding: method
+            //Overriding o = new Overriding();
+            //o.check();
+            //Overriding o = new Child();
+            //o.check();
+            //Child child = new Child();
+            //child.check();
+
         }
     }
 }
