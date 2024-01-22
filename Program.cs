@@ -184,9 +184,15 @@ namespace CoreOOP
 
             // abstract
             // class, method
-            ChildAbstractClass childAbstractClass = new ChildAbstractClass();
-            childAbstractClass.checkAbstractMethod();
-            childAbstractClass.checkNonAbstractMethod();
+            //ChildAbstractClass childAbstractClass = new ChildAbstractClass();
+            //childAbstractClass.checkAbstractMethod();
+            //childAbstractClass.checkNonAbstractMethod();
+
+            // interface
+            ChildInterfaceClass childInterfaceClass = new ChildInterfaceClass();
+            Console.WriteLine("Retrun value form interface is: {0}", childInterfaceClass.check());        
+            InterfaceExample example = new ChildInterfaceClass();
+            example.TypeCheck();
 
         }
     }
