@@ -1,4 +1,5 @@
 ﻿using CoreOOP.AllInheritance;
+using CoreOOP.AllPolymorphism;
 using System;
 
 namespace CoreOOP
@@ -157,6 +158,13 @@ namespace CoreOOP
             //relations.show();
 
 
+            // polymorphism
+            // overloading: method, constructor
+            MemberOverloading mo1 = new MemberOverloading();
+            MemberOverloading mo2 = new MemberOverloading(s: "with parameter");
+            Console.WriteLine(mo1.add(1, 2));
+            Console.WriteLine(mo1.add(1, 2,3));
+            Console.WriteLine(mo1.add(1.1, 2.2));
         }
     }
 }
