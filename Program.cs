@@ -150,6 +150,13 @@ namespace CoreOOP
             //cmi.method1();
             //cmi.common();
 
+
+            // has a relationship
+            //HasARelationShip hasARelationShip = new HasARelationShip(name: "Neloy", department: "SWE");
+            //Relations relations = new Relations(id: 181, har: hasARelationShip);
+            //relations.show();
+
+
         }
     }
 }
