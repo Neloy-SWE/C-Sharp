@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// complile time polymorphism
+
 namespace CoreOOP.AllPolymorphism
 {
     internal class MemberOverloading

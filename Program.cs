@@ -1,4 +1,5 @@
-﻿using CoreOOP.AllInheritance;
+﻿using CoreOOP.AllAbstract;
+using CoreOOP.AllInheritance;
 using CoreOOP.AllPolymorphism;
 using System;
 
@@ -175,10 +176,17 @@ namespace CoreOOP
             //child.check();
 
             // base
-            BaseChild baseChild = new BaseChild(a: 10, b: 20);
-            //BaseChild baseChild = new BaseChild();
-            baseChild.childCheck();
-            Console.WriteLine(baseChild.a + baseChild.b);
+            //BaseChild baseChild = new BaseChild(a: 10, b: 20);
+            ////BaseChild baseChild = new BaseChild();
+            //baseChild.childCheck();
+            //Console.WriteLine(baseChild.a + baseChild.b);
+
+
+            // abstract
+            // class, method
+            ChildAbstractClass childAbstractClass = new ChildAbstractClass();
+            childAbstractClass.checkAbstractMethod();
+            childAbstractClass.checkNonAbstractMethod();
 
         }
     }
