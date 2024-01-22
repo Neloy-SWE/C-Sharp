@@ -174,6 +174,12 @@ namespace CoreOOP
             //Child child = new Child();
             //child.check();
 
+            // base
+            BaseChild baseChild = new BaseChild(a: 10, b: 20);
+            //BaseChild baseChild = new BaseChild();
+            baseChild.childCheck();
+            Console.WriteLine(baseChild.a + baseChild.b);
+
         }
     }
 }
