@@ -1,6 +1,7 @@
 ﻿using CoreOOP.AllAbstract;
 using CoreOOP.AllInheritance;
 using CoreOOP.AllPolymorphism;
+using CoreOOP.Practice;
 using System;
 
 namespace CoreOOP
@@ -189,11 +190,31 @@ namespace CoreOOP
             //childAbstractClass.checkNonAbstractMethod();
 
             // interface
-            ChildInterfaceClass childInterfaceClass = new ChildInterfaceClass();
-            Console.WriteLine("Retrun value form interface is: {0}", childInterfaceClass.check());        
-            InterfaceExample example = new ChildInterfaceClass();
-            example.TypeCheck();
+            //ChildInterfaceClass childInterfaceClass = new ChildInterfaceClass();
+            //Console.WriteLine("Retrun value form interface is: {0}", childInterfaceClass.check());        
+            //InterfaceExample example = new ChildInterfaceClass();
+            //example.TypeCheck();
 
+
+
+
+
+
+
+
+
+
+
+
+            // Paractice
+            //BankAccount bankAccount = new BankAccount(500);
+            //bankAccount.Deposit(500);
+            //Console.WriteLine("Balance: "+ bankAccount.GetBalance());
+            //bankAccount.Withdraw(500);
+            //Console.WriteLine("Balance: " + bankAccount.GetBalance());
+
+            //bankAccount.Withdraw(5000);
+            //Console.WriteLine("Balance: " + bankAccount.GetBalance());
         }
     }
 }
