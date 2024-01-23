@@ -198,18 +198,27 @@ namespace CoreOOP
 
 
             // access modifier
-            // public
-            AccessModifierExample accessModifierExample = new AccessModifierExample();
-            accessModifierExample.CheckPublic();
-            AccessMOdifierCheck accessMOdifierCheck = new AccessMOdifierCheck();
-            // protected
-            accessMOdifierCheck.CheckProtected();
-            // internal
-            Console.WriteLine("internal member: "+accessModifierExample.b);
-            // protected internal
-            Console.WriteLine("protected internal member: "+accessModifierExample.c);
-            // private
-            accessModifierExample.GetPrivate();
+            //// public
+            //AccessModifierExample accessModifierExample = new AccessModifierExample();
+            //accessModifierExample.CheckPublic();
+            //AccessMOdifierCheck accessMOdifierCheck = new AccessMOdifierCheck();
+            //// protected
+            //accessMOdifierCheck.CheckProtected();
+            //// internal
+            //Console.WriteLine("internal member: "+accessModifierExample.b);
+            //// protected internal
+            //Console.WriteLine("protected internal member: "+accessModifierExample.c);
+            //// private
+            //accessModifierExample.GetPrivate();
+
+
+
+            // encapsulation
+            EncapsulationExample encapsulationExample = new EncapsulationExample();
+            encapsulationExample.id = 1;
+            encapsulationExample.name = "test";
+            Console.WriteLine(encapsulationExample.id);
+            Console.WriteLine(encapsulationExample.name);
 
 
 
