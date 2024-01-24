@@ -1,4 +1,5 @@
 ﻿using CoreOOP.AllAbstract;
+using CoreOOP.AllExceptionHandling;
 using CoreOOP.AllInheritance;
 using CoreOOP.AllPolymorphism;
 using CoreOOP.Practice;
@@ -214,11 +215,13 @@ namespace CoreOOP
 
 
             // encapsulation
-            EncapsulationExample encapsulationExample = new EncapsulationExample();
-            encapsulationExample.id = 1;
-            encapsulationExample.name = "test";
-            Console.WriteLine(encapsulationExample.id);
-            Console.WriteLine(encapsulationExample.name);
+            //EncapsulationExample encapsulationExample = new EncapsulationExample();
+            //encapsulationExample.id = 1;
+            //encapsulationExample.name = "test";
+            //Console.WriteLine(encapsulationExample.id);
+            //Console.WriteLine(encapsulationExample.name);
+            ExecptionHandlingExample execptionHandlingExample = new ExecptionHandlingExample();
+            execptionHandlingExample.CheckExeption();
 
 
 
