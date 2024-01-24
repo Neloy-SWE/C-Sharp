@@ -220,9 +220,23 @@ namespace CoreOOP
             //encapsulationExample.name = "test";
             //Console.WriteLine(encapsulationExample.id);
             //Console.WriteLine(encapsulationExample.name);
-            ExecptionHandlingExample execptionHandlingExample = new ExecptionHandlingExample();
-            execptionHandlingExample.CheckExeption();
 
+
+
+            // exception
+            // try, catch, finally
+            //ExecptionHandlingExample execptionHandlingExample = new ExecptionHandlingExample();
+            //execptionHandlingExample.CheckExeption();
+            // user define
+            CheckUDE checkUDE = new CheckUDE();
+            try
+            {
+                checkUDE.CheckAge(10);
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.WriteLine("End");
 
 
 
