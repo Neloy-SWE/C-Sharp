@@ -1,4 +1,5 @@
 ﻿using CoreOOP.AllAbstract;
+using CoreOOP.AllCollections;
 using CoreOOP.AllExceptionHandling;
 using CoreOOP.AllInheritance;
 using CoreOOP.AllPolymorphism;
@@ -227,16 +228,26 @@ namespace CoreOOP
             // try, catch, finally
             //ExecptionHandlingExample execptionHandlingExample = new ExecptionHandlingExample();
             //execptionHandlingExample.CheckExeption();
+
             // user define
-            CheckUDE checkUDE = new CheckUDE();
-            try
-            {
-                checkUDE.CheckAge(10);
-            } catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            Console.WriteLine("End");
+            //CheckUDE checkUDE = new CheckUDE();
+            //try
+            //{
+            //    checkUDE.CheckAge(10);
+            //} catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            //Console.WriteLine("End");
+
+
+
+            // collection
+            // list
+            ListExample listExample = new ListExample();
+            listExample.CheckList();
+
+
 
 
 

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace CoreOOP.AllExceptionHandling
 {
-    internal class UserDefineExeption: Exception
+    internal class UserDefineExeption : Exception
     {
-        public UserDefineExeption(string msg) : base(msg) {
+        public UserDefineExeption(string msg) : base(msg)
+        {
         }
     }
 
@@ -16,7 +17,8 @@ namespace CoreOOP.AllExceptionHandling
     {
         public void CheckAge(int age)
         {
-            if(age < 18) {
+            if (age < 18)
+            {
 
                 throw new UserDefineExeption(msg: "You are not eligible for vote");
             }
