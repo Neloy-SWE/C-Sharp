@@ -244,8 +244,12 @@ namespace CoreOOP
 
             // collection
             // list
-            ListExample listExample = new ListExample();
-            listExample.CheckList();
+            //ListExample listExample = new ListExample();
+            //listExample.CheckList();
+
+            // has set
+            HasSetExample hasSetExample = new HasSetExample();
+            hasSetExample.CheckHasSet();
 
 
 
