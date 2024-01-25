@@ -247,9 +247,15 @@ namespace CoreOOP
             //ListExample listExample = new ListExample();
             //listExample.CheckList();
 
-            // has set
-            HasSetExample hasSetExample = new HasSetExample();
-            hasSetExample.CheckHasSet();
+            // hash set
+            //HasSetExample hasSetExample = new HasSetExample();
+            //hasSetExample.CheckHasSet();
+
+            // sorted set
+            SortedSetExample example = new SortedSetExample();
+            example.CheckSortedSet();
+
+
 
 
 
